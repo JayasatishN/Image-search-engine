@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poopins', sans-serif;
+    box-sizing: border-box ;
+}
+body {
+    background-image: url('https://images.pexels.com/photos/753994/pexels-photo-753994.jpeg?cs=srgb&dl=pexels-rakicevic-nenad-233369-753994.jpg&fm=jpg');
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 600;
+    font-weight: bold;
+}
+.search-container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background:#434989 ;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+
+    /* margin-top: 50px; */
+}
+
+#searchInput {
+    flex: 1;
+    height: 100%;
+    /* width: 300px;
+    
+    font-size: 16px; */
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    padding: 0 30px;
+}
+
+#searchBtn {
+    padding: 0px;
+    height: 100%;
+    background: orange;
+    color: azure;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+#show-more-btn{
+    background:orange ;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 10px auto 100px;
+    cursor: pointer;
+    display: none;
+}
